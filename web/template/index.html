@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    this is DEMO
+</head>
+
+<title >BEEGO</title>
+
+<body>
+
+<div style="background-color: aliceblue; font-family: 'Agency FB'; font-style: normal">this is content  recording my history</div>
+
+<!--姓名:-->
+<!--{{.Name}}  <br/>-->
+<!--年龄:-->
+<!--{{.Age}}-->
+
+<br>
+
+
+<!--    {{range .}}-->
+<!--    {{.}}-->
+<!--    {{end}}-->
+
+<!--<br>-->
+
+
+
+
+    {{range $i,$v  := . }}
+    {{$i}}
+    {{$v}}
+    {{end}}
+
+
+
+</body>
+
+</html>
