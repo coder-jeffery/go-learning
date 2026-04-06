@@ -1,4 +1,4 @@
-package internal
+package model
 
 import (
 	"fmt"
@@ -17,7 +17,7 @@ type Pet struct{
 
 func (p Pet) Getinfo() string{
 	//return fmt.Sprintln("id: %d, name: %s, weight: %s, color: %s, brith: %s, dead: %s,", p.ID, p.Name, p.Weight, p.Color, p.Birth, p.Dead)
-	return fmt.Sprintln("id: %D, name: %s ", p.ID, p.Name)
+	return fmt.Sprintf("name: %s",  p.Name)
 }
 
 func (p *Pet) Update(newname string) error{
