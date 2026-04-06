@@ -2,7 +2,7 @@ package main
 
 
 import (
-"crypto/md5"
+	"crypto/md5"
 "encoding/hex"
 "fmt"
 "math/rand"
