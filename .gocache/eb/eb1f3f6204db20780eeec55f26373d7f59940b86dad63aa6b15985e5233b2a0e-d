@@ -1,0 +1,8 @@
+./customizedtype.go
+./goms.go
+./gopointer.go
+./input.go
+./nestedstructure.go
+./nestedstructure2.go
+./panic_recover.go
+./pointerreceiver.go
